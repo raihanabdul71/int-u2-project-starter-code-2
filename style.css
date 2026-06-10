@@ -1,29 +1,63 @@
 /* The code below centers the text of all h1's on the page. */
 h1 {
-    text-align:center;
+    text-align: left;
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    border-radius: 12px;
 }
+
 
 /* The code below centers the text of all h2's on the page. */
 h2 {
-    text-align:center;
+    text-align: center;
 }
 
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
+    size-adjust: auto;
+
 }
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
-    border: 5px black solid;
-    margin:5px;
+    border: 5px rgb(185, 66, 66) groove;
+    margin: 5px;
+    border-radius: 12px;
+
+}
+
+
+.header-title{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 90px;
+    color: #1f6832;
+    border: 8px ridge rgb(185, 66, 66);
+    border-radius: 12px;
+}
+
+body {
+    background-color: rgb(215, 157, 118);
+    color: #333333;
+}
+h1, h2, h3 {
+    color: #1c7534;
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+}
+
+a {
+    color:black
 }
