@@ -45,13 +45,14 @@ h2 {
 }
 
 body {
-    background-color: rgb(215, 157, 118);
-    color: #333333;
+    background-color: rgb(233, 181, 147);
+    color: #000000;
 }
 h1, h2, h3 {
     color: #1c7534;
     font-size: 25px;
 }
+
 
 p {
     font-size: 18px;
@@ -61,3 +62,4 @@ p {
 a {
     color:black
 }
+
